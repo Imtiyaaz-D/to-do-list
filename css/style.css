@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 .nav{
     display: flex;
@@ -9,6 +10,34 @@
     background-color: #454545;
     
 }
+.container-fluid{
+    background-color: #93B7BE;
+    border-radius: 2rem;
+    border: 2px solid black;
+}
+/* navbar text */
 .text{
     color: white;
 }
+/* .listInput{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+} */
+.row-input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+    border-radius: 2px solid black;
+    
+}
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+    gap:2rem
+}
+
+
